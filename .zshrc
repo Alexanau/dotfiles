@@ -67,3 +67,5 @@ if [ -f ~/.aliases ]; then
 fi
 
 export PATH=$PATH:~/bin
+export EDITOR='vim'
+export TERM=linux
