@@ -1,0 +1,40 @@
+# ls aliases
+alias ls='ls --color=auto'
+alias l='ls --color'
+alias ll='ls -thor'
+alias lla='ls -thorA'
+alias la='ls -A'
+alias .l='ls -d .*'
+alias .ll='ls -thord .*'
+
+# grep aliases
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# program like
+alias c='noglob calc'
+alias chomp='tr -d "\n"'
+alias n='nl -ba'
+alias ,n='nl -ba'
+alias lisp="rlwrap -p'1;31;40' sbcl"
+
+# Editor aliases
+alias ed="rlwrap -r -p'1;35;40' ed -vp:"
+alias v='vim -p'
+alias edspell="rlwrap -if /usr/share/dict/words -p'1;33;40' ed -p'>'"
+alias vim='vim -p'
+
+# misc.
+alias agi='sudo apt-get install'
+alias cless='less -R'
+alias mono="sed -e 's/\[[0-9;]*[a-zA-Z]//g'"
+alias pathsearch='ls `echo $PATH|tr ":" " " `|grep'
+alias 64='base64'
+alias cols='pr -Tw`tput cols`'
+alias q='clear'
+alias p='cat'
+alias h='sed 11q'
+alias pr='pr -t'
+alias 16='xxd -p'
+alias folds='fold -sw72'
