@@ -112,3 +112,26 @@ URxvt*boldFont: -misc-fixed-bold-r-normal--13-100-*-100-c-70-iso8859-1
 !*.color7:       #e8daa9
 !*.color15:      #f4edd4
 !
+
+#!/usr/bin/python
+import fileinput as f
+import re
+from sys import stdout
+from random import randint as rng
+from random import sample
+from random import choice
+
+follow = {}
+last = 0
+for line in f.input():
+  for word in re.findall(r'\w+\'?\w*|\n',line):
+    if last in follow:
+      follow[last].append(word)
+    else:
+      follow[last] = [word]
+    last = word
+      
+prev= choice(follow.keys())
+for x in range(20):
+  prev = choice(follow[prev])
+  print prev,
