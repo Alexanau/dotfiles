@@ -28,7 +28,7 @@ else
 fi
 
 # Editor aliases
-alias ed="rlwrap -r -p'1;35;40' ed -vp:"
+alias ed="rlwrap -r -p'1;35' ed -vp:"
 alias v='vim -p'
 alias edspell="rlwrap -if /usr/share/dict/words -p'1;33;40' ed -p'>'"
 alias vim='vim -p'
@@ -46,3 +46,5 @@ alias h='sed 11q'
 alias pr='pr -t'
 alias 16='xxd -p'
 alias folds='fold -sw72'
+
+alias gc='fortune | git commit -F -'
