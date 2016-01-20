@@ -13,12 +13,19 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
 # program like
-alias c='noglob calc'
 alias chomp='tr -d "\n"'
 alias n='nl -ba'
 alias ,n='nl -ba'
 alias lisp="rlwrap -p'1;31;40' sbcl"
-alias ff="find . -regextype posix-extended -regex "
+
+# Shell dependent
+if [ $SHELL = "/bin/zsh" ]; then
+  alias c='noglob calc'
+  alias ff="noglob find `pwd` -regextype posix-extended -regex "
+else
+  alias ff="find `pwd` -regextype posix-extended -regex "
+  alias c='set -f; calc'
+fi
 
 # Editor aliases
 alias ed="rlwrap -r -p'1;35;40' ed -vp:"
