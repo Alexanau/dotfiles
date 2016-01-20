@@ -21,9 +21,9 @@ alias lisp="rlwrap -p'1;31;40' sbcl"
 # Shell dependent
 if [ $SHELL = "/bin/zsh" ]; then
   alias c='noglob calc'
-  alias ff="noglob find `pwd` -regextype posix-extended -regex "
+  alias ff="noglob find `pwd -P` -regextype posix-extended -regex "
 else
-  alias ff="find `pwd` -regextype posix-extended -regex "
+  alias ff="find `pwd -P` -regextype posix-extended -regex "
   alias c='set -f; calc'
 fi
 
