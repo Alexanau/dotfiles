@@ -1,116 +1,35 @@
-URxvt*intensityStyles: true
-*.font:     -misc-fixed-medium-r-normal--13-100-*-100-c-70-iso8859-1
-*font:     -misc-fixed-medium-r-normal--13-100-*-100-c-70-iso8859-1
-URxvt*boldFont: -misc-fixed-bold-r-normal--13-100-*-100-c-70-iso8859-1
-URxvt.cursorBlink: 1
+
 *.foreground:   #444444
-*.background:   #ffffee
+*.background:   #eeeeee
 *.cursorColor:  #000000
 
-! cheese cake
-!*.color0:       #4c4c4c
-!*.color8:       #353535
-!*.color1:       #b9121b
-!*.color9:       #4c1b1b
-!*.color2:       #bd8d46
-!*.color10:      #9d753a
-!*.color3:       #f6e497
-!*.color11:      #d1c180
-!*.color4:       #f595a7
-!*.color12:      #d1a5ad
-!*.color5:       #d28e2a
-!*.color13:      #b47a24
-!*.color6:       #ebcd4f
-!*.color14:      #b9a659
-!*.color7:       #fcfae1
-!*.color15:      #f3f2e7
-!
-!color guide
-!! color0:  Black     ^[[30m
-! color8:  Black-bold
-!
-! color1:  Red       ^[[31m
-! color9:  Red-bold
-!
-! color2:  Green     ^[[32m
-! color10: Green-bold
-!
-! color3:  Yellow    ^[[33m
-! color11: Yellow-bold
-!
-! color4:  Blue      ^[[34m
-! color12: Blue-Bold
-!
-! color5:  Pink      ^[[35m
-! color13: Pink-Bold
-!
-! color6:  Cyan      ^[[36m
-! color14: Cyan-Bold
-!
-! color7:  White     ^[[37m
-! color15: White-Bold
-
-!!black
-!*.color0:       #444444
-!*.color8:       #777777
-!!red
-!*.color1:       #ff0000
-!*.color9:       #990000
-!!green
-!*.color2:       #00ff00
-!*.color10:      #009900
-!!yellow
-!*.color3:       #ffff00
-!*.color11:      #999900
-!!blue
-!*.color4:       #0000ff
-!*.color12:      #000099
-!!pink
-!*.color5:       #ff00ff
-!*.color13:      #990099
-!!cyan
-!*.color6:       #00ffff
-!*.color14:      #009999
-!white
-*.color7:       #ffffee
-*.color15:      #ffffff
-
-!Rojo------------
-*color1: #FF8EAF
-*color9: #ED4C7A
-!Verde------------
+!color 
+!Black     ^[[30m
+*color0:  #444444
+*color8:  #000000
+!Red       ^[[31m
+*color1:  #FF8EAF
+*color9:  #ED4C7A
+!Green     ^[[32m   ~~33ffaa
 *color2:  #A6E25F
 *color10: #A6E179
-!Amarillo---------
-*color3: #996600
+!Yellow    ^[[33m
+*color3:  #996600
 *color11: #FF9900
-!Azul-------------
-*color4: #A6E2F0
+!Blue      ^[[34m
+*color4:  #A6E2F0
 *color12: #79D2FF
-!Magenta----------
-*color5: #E85B92
+!Magenta   ^[[35m
+*color5:  #E85B92
 *color13: #BB5D79
-!Cyan-------------
-*color6: #5F868F
+!Cyan      ^[[36m
+*color6:  #5F868F
 *color14: #87A8AF
-! Light roast
-!*.foreground:   #e8daa9
-!*.background:   #442c2c
-!*.cursorColor:  #e8daa9
-!*.color0:       #1f1414
-!*.color8:       #442c2c
-!*.color1:       #aa706e
-!*.color9:       #b99d85
-!*.color2:       #c09b71
-!*.color10:      #d0b081
-!*.color3:       #663e58
-!*.color11:      #996267
-!*.color4:       #bca883
-!*.color12:      #d9ca93
-!*.color5:       #b5876d
-!*.color13:      #cba370
-!*.color6:       #28264d
-!*.color14:      #463f5e
-!*.color7:       #e8daa9
-!*.color15:      #f4edd4
-!
+!White     ^[[37m
+*color7:  #eeeeee
+*color15: #ffffff
+
+URxvt*intensityStyles: true
+URxvt*font:     -misc-fixed-medium-r-normal--13-100-*-100-c-70-iso8859-1
+URxvt*boldFont: -misc-fixed-bold-r-normal--13-100-*-100-c-70-iso8859-1
+URxvt.cursorBlink: 1
