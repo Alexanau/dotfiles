@@ -5,6 +5,7 @@ URxvt*geometry: 90x30
 *.background:   #eeeeee
 *.cursorColor:  #000000
 
+!need more alarming red and better greens
 !color 
 !Black     ^[[30m
 *color0:  #444444
