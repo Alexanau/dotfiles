@@ -1,4 +1,6 @@
 
+URxvt*geometry: 90x30
+
 *.foreground:   #444444
 *.background:   #eeeeee
 *.cursorColor:  #000000
@@ -29,7 +31,99 @@
 *color7:  #eeeeee
 *color15: #ffffff
 
+! use differnt colors for bold
 URxvt*intensityStyles: true
+
+! Select the fonts to be used. This is a comma separated list of font names
+! URxvt*font: -*-tewi-medium-r-normal-*-14-*-*-*-*-*-iso8859-1
+! URxvt*font: -*-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
 URxvt*font:     -misc-fixed-medium-r-normal--13-100-*-100-c-70-iso8859-1
 URxvt*boldFont: -misc-fixed-bold-r-normal--13-100-*-100-c-70-iso8859-1
+! URxvt*italicFont: fontlist
+
+! The font list to use for displaying bold, italic or bold italic characters,
+! URxvt*boldItalicFont: fontlist
+
+! turn on cursor blink
 URxvt.cursorBlink: 1
+
+
+! True: specify that jump scrolling should be used. When receiving lots of
+URxvt*jumpScroll: false
+
+
+! Fade to this colour, when fading is used (see fading:). The default colour
+! URxvt*fadeColor: colour
+
+
+! Use the specified colour for the scrollbar [default #B2B2B2].
+! URxvt*scrollColor: colour
+
+! Use the specified colour for the scrollbars trough area [default #969696].
+! URxvt*troughColor: colour
+
+! The colour of the border around the text area and between the scrollbar and
+ URxvt*borderColor: black
+
+! Set window title string, the default title is the command-line specified
+! URxvt*title: string
+
+
+! True: set the urgency hint for the wm on receipt of a bell character.
+ URxvt*urgentOnBell: True
+
+! Set scrollbar style to rxvt, plain, next or xterm. plain is the authors
+! URxvt*scrollstyle: mode
+
+! Set the scrollbar width in pixels.
+! URxvt*thickness: number
+
+! True: enable the scrollbar [default]; option -sb. False: disable the
+ URxvt*scrollBar: True
+
+
+! True: place the scrollbar on the right of the window; option -sr.  False:
+! URxvt*scrollBar_right: boolean
+
+! True: display an rxvt scrollbar without a trough; option -st.  False:
+! URxvt*scrollBar_floating: boolean
+
+! Align the top, bottom or centre [default] of the scrollbar thumb with the
+! URxvt*scrollBar_align: mode
+
+! True: scroll to bottom when tty receives output; option -si.  False: do not
+! URxvt*scrollTtyOutput: boolean
+
+! True: scroll with scrollback buffer when tty receives new lines (i.e.  try
+! URxvt*scrollWithBuffer: boolean
+
+! True: scroll to bottom when a non-special key is pressed. Special keys are
+! URxvt*scrollTtyKeypress: boolean
+
+! Save number lines in the scrollback buffer [default 64]. This resource is
+! URxvt*saveLines: number
+
+! Internal border of number pixels. This resource is limited to 100; option
+ URxvt*internalBorder: 0 
+
+! External border of number pixels. This resource is limited to 100; option
+ URxvt*externalBorder: 1 
+
+! Set MWM hints to request a borderless window, i.e. if honoured by the WM,
+! URxvt*borderLess: boolean
+
+! Compile frills: Disable the usage of the built-in block graphics/line
+ URxvt*skipBuiltinGlyphs: False 
+
+! Specifies the terminal type name to be set in the TERM environment
+ URxvt*termName: rxvt-unicode
+
+! True: the mouse wheel scrolls a page full. False: the mouse wheel scrolls
+ URxvt*mouseWheelScrollPage: False
+
+! The characters used as delimiters for double-click word selection
+ URxvt*cutchars: -,./?%&#:_=+@~ ! 
+
+! Change the meaning of triple-click selection with the left mouse button.
+! URxvt*tripleclickwords: boolean
+
