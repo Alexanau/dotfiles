@@ -1,3 +1,5 @@
+runtime! ftplugin/man.vim
+
 inoremap lkj <ESC>
 nnoremap \ $
 nnoremap 0 ^
