@@ -4,7 +4,6 @@ URxvt*geometry: 90x30
 *.foreground:   #444444
 *.background:   #eeeeee
 *.cursorColor:  #000000
-
 !need more alarming red and better greens
 !color 
 !Black     ^[[30m
@@ -64,7 +63,7 @@ URxvt*jumpScroll: false
 ! URxvt*troughColor: colour
 
 ! The colour of the border around the text area and between the scrollbar and
- URxvt*borderColor: black
+ URxvt*borderColor: #eeeeee
 
 ! Set window title string, the default title is the command-line specified
 ! URxvt*title: string
