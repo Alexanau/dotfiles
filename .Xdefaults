@@ -1,36 +1,35 @@
 
 URxvt*geometry: 90x30
 
-*.foreground:   #444444
-*.background:   #eeeeee
-*.cursorColor:  #000000
+URxvt*.foreground:   #eeeeee
+URxvt*.background:   #222222 
+URxvt*.cursorColor:  #eeeeee
 
 !color 
 !Black     ^[[30m
-*color0:  #444444
-*color8:  #000000
 !Red       ^[[31m
-*color1:  #FF8EAF
-*color9:  #ED4C7A
 !Green     ^[[32m   ~~33ffaa
-*color2:  #A6E25F
-*color10: #A6E179
 !Yellow    ^[[33m
-*color3:  #996600
-*color11: #FF9900
 !Blue      ^[[34m
-*color4:  #A6E2F0
-*color12: #79D2FF
 !Magenta   ^[[35m
-*color5:  #E85B92
-*color13: #BB5D79
 !Cyan      ^[[36m
-*color6:  #5F868F
-*color14: #87A8AF
 !White     ^[[37m
-*color7:  #eeeeee
-*color15: #ffffff
-
+*color0:                  #222222
+*color1:                  #cc0000
+*color2:                  #4e9a06
+*color3:                  #c4a000
+*color4:                  #3465a4
+*color5:                  #75507b
+*color6:                  #06989a
+*color7:                  #dddddd
+*color8:                  #666666
+*color9:                  #ef2929
+*color10:                 #8ae234
+*color11:                 #fce94f
+*color12:                 #729fcf
+*color13:                 #ad7fa8
+*color14:                 #34e2e2
+*color15:                 #eeeeee
 ! use differnt colors for bold
 URxvt*intensityStyles: true
 
@@ -63,7 +62,7 @@ URxvt*jumpScroll: false
 ! URxvt*troughColor: colour
 
 ! The colour of the border around the text area and between the scrollbar and
- URxvt*borderColor: #eeeeee
+ URxvt*borderColor: #222222
 
 ! Set window title string, the default title is the command-line specified
 ! URxvt*title: string
